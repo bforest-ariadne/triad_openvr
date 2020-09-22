@@ -1,27 +1,27 @@
 {
     "devices":[
         {
-          "name": "tracking_reference_0",
+          "name": "tracking_reference_1",
           "type": "Tracking Reference",
           "serial":"LHB-DCFDDE1F"
         },
         {
-          "name": "tracking_reference_1",
+          "name": "tracking_reference_2",
           "type": "Tracking Reference",
           "serial":"LHB-53007B40"
         },
         {
-          "name": "tracking_reference_2",
+          "name": "tracking_reference_3",
           "type": "Tracking Reference",
           "serial":"LHB-2BDD9795"
         },
         {
-          "name": "tracker_0",
+          "name": "tracker_1",
           "type": "Tracker",
           "serial":"LHR-FDA8FCBC"
         },
         {
-          "name": "tracker_1",
+          "name": "tracker_2",
           "type": "Tracker",
           "serial":"LHR-17AB9CE0"
         }
