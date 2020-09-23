@@ -32,12 +32,13 @@ if interval:
                 for el in row:
                     pose_matrix_list.append(el)
             client.send_message(f"/pose_matrix/{device_key}", pose_matrix_list)
-        # pose_data = v.devices["tracker_1"].get_pose_euler()
-        # # client.send_message("/tracker1", pose_data)
+        pose_data = v.devices["tracking_reference_1"].get_pose_euler()
+        # client.send_message("/tracker1", pose_data)
         # for each in pose_data:
         #     txt += "%.4f" % each
         #     txt += " "
-        # print("\r" + txt, end="")
+        print('matrix', pose_data_matrix)
+        # print("\r" + pose_data_matrix, end="")
         sleep_time = interval-(time.time()-start)
         if sleep_time>0:
             time.sleep(sleep_time)
