@@ -37,7 +37,7 @@ if interval:
         # for each in pose_data:
         #     txt += "%.4f" % each
         #     txt += " "
-        print('matrix', pose_data_matrix)
+        # print('matrix', pose_data_matrix)
         # print("\r" + pose_data_matrix, end="")
         sleep_time = interval-(time.time()-start)
         if sleep_time>0:
