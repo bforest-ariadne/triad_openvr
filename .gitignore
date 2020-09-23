@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
-Backup/*
+Backup/
+# TD Project
+*.*.toe
